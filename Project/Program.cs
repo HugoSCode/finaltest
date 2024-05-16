@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           
+        }
+        static void one() 
+        { 
+        }
+        static void two()
+        {
+
+        }
+        static void three() 
+        {
+
         }
     }
 }
