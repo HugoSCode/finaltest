@@ -33,7 +33,31 @@
         }
         static void three() 
         {
+/**********************************
+ * Shape area calculator          *
+ * Author: Samuel Batchelor       *
+ * Date 6 March 2024              *
+ **********************************/
 
+
+                string name, temp;
+                int width, height, area;
+                Console.WriteLine("Please enter your name");
+                name = Console.ReadLine();
+                Console.WriteLine("Please enter the height");
+                temp = Console.ReadLine();
+                height = Convert.ToInt32(temp);
+                Console.WriteLine("Please enter the width");
+                temp = Console.ReadLine();
+                width = Convert.ToInt32(temp);
+                area = width * height;
+                Console.WriteLine($"Hello {name}, the area of your rectangle is {area}m^2 given the measurements you provided {width} width & {height} height");
+
+                Console.ReadLine();
+            
         }
     }
+
 }
+    
+
